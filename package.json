@@ -15,7 +15,8 @@
         "node-pre-gyp-github": "1.4.3"
     },
     "scripts": {
-      "install": "node-pre-gyp install --fallback-to-build"
+      "install": "node-pre-gyp install --fallback-to-build",
+      "gh-publish": "node-pre-gyp-github publish"
     },
     "binary": {
         "module_name": "zip",
