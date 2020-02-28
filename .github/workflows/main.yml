@@ -23,4 +23,3 @@ jobs:
         NODE_PRE_GYP_GITHUB_TOKEN: ${{ secrets.NODE_PRE_GYP_GITHUB_TOKEN }}
       run: |
         npm install
-        npm run gh-publish
