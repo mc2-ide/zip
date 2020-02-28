@@ -1,0 +1,19 @@
+{
+    "name": "@mc2/zip",
+    "version": "0.0.1",
+    "main": "index.js",
+    "repository": "https://github.com/mc2-ide/zip.git",
+    "author": "Simon Hochrein <simon.hochrein@icloud.com>",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+        "nan": "^2.14.0",
+        "node-pre-gyp": "^0.14.0"
+    },
+    "binary": {
+        "module_name": "zip",
+        "module_path": "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
+        "remote_path": "{version}",
+        "host": "https://github.com/[owner]/[repo]/releases/download/"
+    }
+}
